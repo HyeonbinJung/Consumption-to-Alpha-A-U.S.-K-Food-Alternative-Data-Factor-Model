@@ -1,0 +1,17 @@
+dataset,coverage,quality,source,use
+Total K-food exports,2019-2025,A,MAFRA,Core demand
+Ramyeon exports,2019-2025,A,Korea Customs Service / MAFRA / Korea.net,Core demand
+Kimchi exports,2019-2025,A,MAFRA / KCS,Core demand
+Processed-rice exports,2019-2024,A,MAFRA,Core demand
+Sauce exports,2019-2025,A-/B+,K-FOODTRADE + MAFRA; classification stitch,Satellite / ablation
+KRW/USD,2019-2025,A,FRED,Macro control
+Global Food Price Index,2019-2025,A,IMF via FRED,Macro control
+U.S. K-food exports,2023-2025,A,MAFRA,U.S. overlay
+H Mart footprint,~3-year structural,C+,Fast Company citing NYT / trade press,Distribution proxy only
+Annual price returns,2020-2025,B,MarketScreener,Equity lead test
+Samyang financials,2021-2025,A,Samyang IR,Fundamental test
+Nongshim financials,2021-2025,A,Nongshim / KRX,Fundamental test
+CJ Food division sales,2021-2025,A,CJ CheilJedang,Fundamental test
+Daesang sales,2021-2025,B,S&P Global / MarketScreener,Fundamental test
+Ottogi sales,2021-2025,A-/B,KRX / MarketScreener,Fundamental test
+Pulmuone sales,2021-2025,A-/B,Pulmuone / S&P Global,Fundamental test

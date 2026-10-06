@@ -1,0 +1,7 @@
+company,broad,ramen,kimchi,rice,sauce,confidence,rationale
+Samyang Foods,0.07,0.9,0.0,0.0,0.03,High,Ramen/Buldak-dominant; overseas sales ~80% in 2025.
+Nongshim,0.17,0.8,0.0,0.0,0.03,High,Ramen ~52% of 2024 standalone sales; major overseas ramen operations.
+CJ CheilJedang,0.58,0.02,0.08,0.2,0.12,Medium,"Diversified food; GSP includes rice, sauce, kimchi, gim, mandu, chicken."
+Daesang,0.13,0.02,0.4,0.02,0.43,Medium,Jongga kimchi and sauce exposure; exact category revenue shares not public.
+Ottogi,0.25,0.42,0.01,0.07,0.25,High,"2025 mix includes noodles 28.7%, seasoning sauces 17.0%, processed agri/fish 19.4%."
+Pulmuone,0.78,0.08,0.01,0.1,0.03,Medium,"Diversified food/wellness; U.S. growth includes tofu, Asian noodles, K-snacks."
