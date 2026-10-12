@@ -10,6 +10,8 @@
 <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" height="26">
 <img src="https://img.shields.io/badge/statsmodels-4051B5?style=for-the-badge" height="26">
 <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" height="26">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" height="26">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="26">
 
 [Overview](#-overview) · [Studies](#-studies) · [Method](#-method--k-food-study) · [Getting Started](#-getting-started) · [Structure](#%EF%B8%8F-project-structure) · [Notes](#-notes--limitations)
 
@@ -26,6 +28,7 @@ A collection of research notebooks that turn **real-economy signals** — trade 
 | Study | Question | Status |
 |---|---|---|
 | [**Consumption-to-Alpha**](Consumption-to-Alpha-A-U.S.-K-Food-Alternative-Data-Factor-Model/) — a U.S. K-Food alternative-data factor model | Can K-food demand at *t* predict revenue growth and excess equity returns at *t + 1*? | Research-grade pilot (v3) |
+| [**Revenue Dip Lab**](Revenue-Dip-Lab/) — fundamental resilience & price-drawdown backtesting engine | Do companies with resilient revenue offer systematic opportunities after sharp price declines? | Interactive platform · rule-based backtests |
 
 ## 🔬 Method — K-Food Study
 
@@ -48,8 +51,9 @@ A collection of research notebooks that turn **real-economy signals** — trade 
 |---|---|
 | Analysis | Python, Jupyter, pandas, NumPy |
 | Statistics | statsmodels (OLS), SciPy (Spearman / Pearson), permutation tests |
-| Visualization | Matplotlib |
-| Data | MAFRA, Korea Customs Service, company IR and filings, FRED / IMF, MarketScreener |
+| Visualization | Matplotlib, browser charts and 3D CAGR surfaces |
+| Platforms | FastAPI, shared JavaScript backtest engine, Web Workers, SQLite |
+| Data | MAFRA, Korea Customs Service, company IR and filings, FRED / IMF, MarketScreener, SEC EDGAR, Yahoo Finance, Financial Modeling Prep |
 
 ## 🚀 Getting Started
 
@@ -63,6 +67,7 @@ jupyter notebook kfood_research_grade_alpha_v3.ipynb
 
 ```text
 Signals-to-Alpha
+├── Revenue-Dip-Lab/                               backtesting platform — see its README
 └── Consumption-to-Alpha-A-U.S.-K-Food-Alternative-Data-Factor-Model/
     ├── kfood_research_grade_alpha_v3.ipynb        research notebook (v3)
     ├── kfood_research_grade_panel.csv             demand score → next-year return panel
